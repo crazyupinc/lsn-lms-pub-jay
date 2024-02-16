@@ -27,10 +27,10 @@
   position: relative;
   background-color: var(--text-menu);
   width: 100%;
-  padding: 40px;
+  padding: var(--padding-21xl);
   box-sizing: border-box;
   text-align: left;
-  font-size: var(--font-size-xs);
+  font-size: var(--body-regular-12-size);
   color: var(--text-common);
-  font-family: var(--font-inter);
+  font-family: var(--body-regular-12);
 }
