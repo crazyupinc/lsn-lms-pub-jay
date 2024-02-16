@@ -21,11 +21,11 @@
   justify-content: flex-start;
 }
 .page-list {
-  gap: 10px;
+  gap: var(--gap-3xs);
 }
 .index {
   position: relative;
-  background-color: var(--navbar-text-color-default);
+  background-color: var(--text-menu);
   width: 100%;
   padding: var(--padding-21xl);
   box-sizing: border-box;

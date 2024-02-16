@@ -8,26 +8,29 @@ body {
   --body-regular-12: Inter;
 
   /* font sizes */
-  --subtitle-is-6-size: 16px;
   --body-regular-12-size: 12px;
+  --subtitle-is-6-size: 16px;
   --heading-is-5-size: 20px;
   --subtitle-is-4-size: 24px;
 
   /* Colors */
+  --text-menu: #aaa;
+  --text-common: #2e2e2e;
   --navbar-background-color-default: #f9fbff;
   --color-aliceblue: #f0f5ff;
   --color-gray: #767676;
   --color-lavender: #cedeff;
-  --text-common: #2e2e2e;
-  --navbar-text-color-default: #aaa;
   --bg-titlebar: #fff;
   --text-title: #000;
 
   /* Gaps */
+  --gap-3xs: 10px;
   --gap-5xs: 8px;
+  --gap-21xl: 40px;
 
   /* Paddings */
-  --padding-base: 16px;
   --padding-21xl: 40px;
+  --padding-base: 16px;
+  --padding-3xs: 10px;
   --padding-5xs: 8px;
 }

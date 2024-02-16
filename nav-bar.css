@@ -1,7 +1,7 @@
-.lsnetworks {
+.lsnetworks1 {
   margin: 0;
 }
-.lsnetworks-lms-admin-container {
+.lsnetworks-lms-admin-container1 {
   position: relative;
   font-size: var(--subtitle-is-4-size);
   line-height: 120%;
@@ -9,7 +9,7 @@
   color: var(--text-common);
   text-align: center;
 }
-.mainlogo {
+.mainlogo1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -21,15 +21,17 @@
   align-items: center;
   justify-content: center;
 }
-.label-menu {
+.label-menu4 {
   position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
   font-family: var(--body-regular-12);
-  color: var(--navbar-text-color-default);
+  color: var(--text-menu);
   text-align: left;
 }
-.menuitem {
+.menuitem4,
+.menuitem5,
+.menuitem6 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -42,31 +44,55 @@
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.menuitem:hover {
+.menuitem4:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem:hover .label-menu {
+.menuitem4:hover .label-menu4 {
   color: var(--color-gray);
 }
-.menuitem:focus {
+.menuitem4:focus {
   background-color: var(--color-lavender);
 }
-.menuitem:focus .label-menu {
+.menuitem4:focus .label-menu4 {
   color: var(--text-common);
 }
-.menu-list,
-.nav-bar {
+.menuitem5:hover {
+  background-color: var(--color-aliceblue);
+}
+.menuitem5:hover .label-menu4 {
+  color: var(--color-gray);
+}
+.menuitem5:focus {
+  background-color: var(--color-lavender);
+}
+.menuitem5:focus .label-menu4 {
+  color: var(--text-common);
+}
+.menuitem6:hover {
+  background-color: var(--color-aliceblue);
+}
+.menuitem6:hover .label-menu4 {
+  color: var(--color-gray);
+}
+.menuitem6:focus {
+  background-color: var(--color-lavender);
+}
+.menuitem6:focus .label-menu4 {
+  color: var(--text-common);
+}
+.menu-list1,
+.nav-bar1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.menu-list {
+.menu-list1 {
   align-self: stretch;
   flex: 1;
   overflow: hidden;
   align-items: flex-start;
 }
-.nav-bar {
+.nav-bar1 {
   margin: 0;
   width: 100%;
   position: relative;
@@ -74,6 +100,8 @@
   box-shadow: -0.5px 0 0 rgba(0, 0, 0, 0.25) inset;
   height: 600px;
   align-items: center;
-  gap: 40px;
+  gap: var(--gap-21xl);
+  min-width: 220px;
+  max-width: 220px;
   min-height: 600px;
 }
