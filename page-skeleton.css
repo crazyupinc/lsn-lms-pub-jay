@@ -1,7 +1,7 @@
-.lsnetworks {
+.lsnetworks1 {
   margin: 0;
 }
-.lsnetworks-lms-admin-container {
+.lsnetworks-lms-admin-container1 {
   position: relative;
   font-size: var(--subtitle-is-4-size);
   line-height: 120%;
@@ -9,7 +9,7 @@
   color: var(--text-common);
   text-align: center;
 }
-.mainlogo {
+.mainlogo1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
 }
-.label-menu1 {
+.label-menu4 {
   position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
@@ -29,9 +29,9 @@
   color: var(--text-menu);
   text-align: left;
 }
-.menuitem1,
-.menuitem2,
-.menuitem3 {
+.menuitem4,
+.menuitem5,
+.menuitem6 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -44,55 +44,55 @@
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.menuitem1:hover {
+.menuitem4:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem1:hover .label-menu1 {
+.menuitem4:hover .label-menu4 {
   color: var(--color-gray);
 }
-.menuitem1:focus {
+.menuitem4:focus {
   background-color: var(--color-lavender);
 }
-.menuitem1:focus .label-menu1 {
+.menuitem4:focus .label-menu4 {
   color: var(--text-common);
 }
-.menuitem2:hover {
+.menuitem5:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem2:hover .label-menu1 {
+.menuitem5:hover .label-menu4 {
   color: var(--color-gray);
 }
-.menuitem2:focus {
+.menuitem5:focus {
   background-color: var(--color-lavender);
 }
-.menuitem2:focus .label-menu1 {
+.menuitem5:focus .label-menu4 {
   color: var(--text-common);
 }
-.menuitem3:hover {
+.menuitem6:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem3:hover .label-menu1 {
+.menuitem6:hover .label-menu4 {
   color: var(--color-gray);
 }
-.menuitem3:focus {
+.menuitem6:focus {
   background-color: var(--color-lavender);
 }
-.menuitem3:focus .label-menu1 {
+.menuitem6:focus .label-menu4 {
   color: var(--text-common);
 }
-.menu-list,
-.nav-bar {
+.menu-list1,
+.nav-bar1 {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.menu-list {
+.menu-list1 {
   flex: 1;
   overflow: hidden;
   align-items: flex-start;
 }
-.nav-bar {
+.nav-bar1 {
   margin: 0;
   width: 220px;
   background-color: var(--navbar-background-color-default);

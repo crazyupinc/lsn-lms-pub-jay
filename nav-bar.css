@@ -1,7 +1,7 @@
-.lsnetworks1 {
+.lsnetworks {
   margin: 0;
 }
-.lsnetworks-lms-admin-container1 {
+.lsnetworks-lms-admin-container {
   position: relative;
   font-size: var(--subtitle-is-4-size);
   line-height: 120%;
@@ -9,7 +9,7 @@
   color: var(--text-common);
   text-align: center;
 }
-.mainlogo1 {
+.mainlogo {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
 }
-.label-menu4 {
+.label-menu1 {
   position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
@@ -29,9 +29,9 @@
   color: var(--text-menu);
   text-align: left;
 }
-.menuitem4,
-.menuitem5,
-.menuitem6 {
+.menuitem1,
+.menuitem2,
+.menuitem3 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -44,55 +44,55 @@
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.menuitem4:hover {
+.menuitem1:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem4:hover .label-menu4 {
+.menuitem1:hover .label-menu1 {
   color: var(--color-gray);
 }
-.menuitem4:focus {
+.menuitem1:focus {
   background-color: var(--color-lavender);
 }
-.menuitem4:focus .label-menu4 {
+.menuitem1:focus .label-menu1 {
   color: var(--text-common);
 }
-.menuitem5:hover {
+.menuitem2:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem5:hover .label-menu4 {
+.menuitem2:hover .label-menu1 {
   color: var(--color-gray);
 }
-.menuitem5:focus {
+.menuitem2:focus {
   background-color: var(--color-lavender);
 }
-.menuitem5:focus .label-menu4 {
+.menuitem2:focus .label-menu1 {
   color: var(--text-common);
 }
-.menuitem6:hover {
+.menuitem3:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem6:hover .label-menu4 {
+.menuitem3:hover .label-menu1 {
   color: var(--color-gray);
 }
-.menuitem6:focus {
+.menuitem3:focus {
   background-color: var(--color-lavender);
 }
-.menuitem6:focus .label-menu4 {
+.menuitem3:focus .label-menu1 {
   color: var(--text-common);
 }
-.menu-list1,
-.nav-bar1 {
+.menu-list,
+.nav-bar {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.menu-list1 {
+.menu-list {
   align-self: stretch;
   flex: 1;
   overflow: hidden;
   align-items: flex-start;
 }
-.nav-bar1 {
+.nav-bar {
   margin: 0;
   width: 100%;
   position: relative;
