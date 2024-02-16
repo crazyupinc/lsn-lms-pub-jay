@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
 }
-.label-menu1 {
+.label-menu {
   position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
@@ -29,9 +29,7 @@
   color: var(--text-menu);
   text-align: left;
 }
-.menuitem1,
-.menuitem2,
-.menuitem3 {
+.menuitem {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -44,40 +42,16 @@
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.menuitem1:hover {
+.menuitem:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem1:hover .label-menu1 {
+.menuitem:hover .label-menu {
   color: var(--color-gray);
 }
-.menuitem1:focus {
+.menuitem:focus {
   background-color: var(--color-lavender);
 }
-.menuitem1:focus .label-menu1 {
-  color: var(--text-common);
-}
-.menuitem2:hover {
-  background-color: var(--color-aliceblue);
-}
-.menuitem2:hover .label-menu1 {
-  color: var(--color-gray);
-}
-.menuitem2:focus {
-  background-color: var(--color-lavender);
-}
-.menuitem2:focus .label-menu1 {
-  color: var(--text-common);
-}
-.menuitem3:hover {
-  background-color: var(--color-aliceblue);
-}
-.menuitem3:hover .label-menu1 {
-  color: var(--color-gray);
-}
-.menuitem3:focus {
-  background-color: var(--color-lavender);
-}
-.menuitem3:focus .label-menu1 {
+.menuitem:focus .label-menu {
   color: var(--text-common);
 }
 .menu-list,
