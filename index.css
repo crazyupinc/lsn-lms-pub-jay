@@ -1,0 +1,36 @@
+.httpscrazy-lsn-lms-pubnetl3 {
+  text-decoration: underline;
+}
+.httpscrazy-lsn-lms-pubnetl2 {
+  color: inherit;
+}
+.httpscrazy-lsn-lms-pubnetl1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-base);
+}
+.httpscrazy-lsn-lms-pubnetl {
+  position: relative;
+}
+.index,
+.page-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.page-list {
+  gap: 10px;
+}
+.index {
+  position: relative;
+  background-color: var(--text-menu);
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--text-common);
+  font-family: var(--font-inter);
+}

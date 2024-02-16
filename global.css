@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --text-menu: #aaa;
+  --text-common: #2e2e2e;
+
+  /* Paddings */
+  --padding-base: 16px;
+}
