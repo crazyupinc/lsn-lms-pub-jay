@@ -1,0 +1,110 @@
+.lsnetworks {
+  margin: 0;
+}
+.lsnetworks-lms-admin-container {
+  position: relative;
+  font-size: var(--subtitle-is-4-size);
+  line-height: 120%;
+  font-family: var(--body-regular-12);
+  color: var(--text-common);
+  text-align: center;
+}
+.label-menu1,
+.mainlogo {
+  display: flex;
+  align-items: center;
+}
+.mainlogo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 140px;
+  flex-direction: row;
+  justify-content: center;
+}
+.label-menu1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--subtitle-is-6-size);
+  line-height: 120%;
+  font-family: var(--body-regular-12);
+  color: var(--text-menu);
+  text-align: left;
+  height: 18px;
+}
+.menu-item1,
+.menu-item2,
+.menu-item3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base);
+  background-color: var(--navbar-background-color-default);
+  width: 220px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.menu-item1:hover {
+  background-color: var(--color-aliceblue);
+}
+.menu-item1:hover .label-menu1 {
+  color: var(--color-gray);
+}
+.menu-item1:focus {
+  background-color: var(--color-lavender);
+}
+.menu-item1:focus .label-menu1 {
+  color: var(--text-common);
+}
+.menu-item2:hover {
+  background-color: var(--color-aliceblue);
+}
+.menu-item2:hover .label-menu1 {
+  color: var(--color-gray);
+}
+.menu-item2:focus {
+  background-color: var(--color-lavender);
+}
+.menu-item2:focus .label-menu1 {
+  color: var(--text-common);
+}
+.menu-item3:hover {
+  background-color: var(--color-aliceblue);
+}
+.menu-item3:hover .label-menu1 {
+  color: var(--color-gray);
+}
+.menu-item3:focus {
+  background-color: var(--color-lavender);
+}
+.menu-item3:focus .label-menu1 {
+  color: var(--text-common);
+}
+.menu-list,
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.menu-list {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.nav-bar {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  background-color: var(--navbar-background-color-default);
+  box-shadow: -0.5px 0 0 rgba(0, 0, 0, 0.25) inset;
+  height: 600px;
+  align-items: center;
+  gap: 40px;
+  min-height: 600px;
+}

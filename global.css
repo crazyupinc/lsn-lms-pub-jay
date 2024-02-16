@@ -10,12 +10,18 @@ body {
   /* font sizes */
   --body-regular-12-size: 12px;
   --heading-is-5-size: 20px;
+  --subtitle-is-6-size: 16px;
+  --subtitle-is-4-size: 24px;
 
   /* Colors */
   --text-menu: #aaa;
   --text-common: #2e2e2e;
   --bg-titlebar: #fff;
   --text-title: #000;
+  --navbar-background-color-default: #f9fbff;
+  --color-aliceblue: #f0f5ff;
+  --color-gray: #767676;
+  --color-lavender: #cedeff;
 
   /* Gaps */
   --gap-5xs: 8px;
