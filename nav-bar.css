@@ -5,14 +5,9 @@
   position: relative;
   font-size: var(--subtitle-is-4-size);
   line-height: 120%;
-  font-family: var(--body-regular-12);
+  font-family: var(--subtitle-is-6);
   color: var(--text-common);
   text-align: center;
-}
-.label-menu1,
-.mainlogo {
-  display: flex;
-  align-items: center;
 }
 .mainlogo {
   cursor: pointer;
@@ -21,22 +16,22 @@
   background-color: transparent;
   align-self: stretch;
   height: 140px;
+  display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
 }
 .label-menu1 {
-  flex: 1;
   position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
-  font-family: var(--body-regular-12);
+  font-family: var(--subtitle-is-6);
   color: var(--text-menu);
   text-align: left;
-  height: 18px;
 }
-.menu-item1,
-.menu-item2,
-.menu-item3 {
+.menuitem1,
+.menuitem2,
+.menuitem3 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -49,40 +44,40 @@
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.menu-item1:hover {
+.menuitem1:hover {
   background-color: var(--color-aliceblue);
 }
-.menu-item1:hover .label-menu1 {
+.menuitem1:hover .label-menu1 {
   color: var(--color-gray);
 }
-.menu-item1:focus {
+.menuitem1:focus {
   background-color: var(--color-lavender);
 }
-.menu-item1:focus .label-menu1 {
+.menuitem1:focus .label-menu1 {
   color: var(--text-common);
 }
-.menu-item2:hover {
+.menuitem2:hover {
   background-color: var(--color-aliceblue);
 }
-.menu-item2:hover .label-menu1 {
+.menuitem2:hover .label-menu1 {
   color: var(--color-gray);
 }
-.menu-item2:focus {
+.menuitem2:focus {
   background-color: var(--color-lavender);
 }
-.menu-item2:focus .label-menu1 {
+.menuitem2:focus .label-menu1 {
   color: var(--text-common);
 }
-.menu-item3:hover {
+.menuitem3:hover {
   background-color: var(--color-aliceblue);
 }
-.menu-item3:hover .label-menu1 {
+.menuitem3:hover .label-menu1 {
   color: var(--color-gray);
 }
-.menu-item3:focus {
+.menuitem3:focus {
   background-color: var(--color-lavender);
 }
-.menu-item3:focus .label-menu1 {
+.menuitem3:focus .label-menu1 {
   color: var(--text-common);
 }
 .menu-list,

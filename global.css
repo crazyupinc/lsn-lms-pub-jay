@@ -5,7 +5,7 @@ body {
 
 :root {
   /* fonts */
-  --body-regular-12: Inter;
+  --subtitle-is-6: Inter;
 
   /* font sizes */
   --body-regular-12-size: 12px;
@@ -14,10 +14,10 @@ body {
   --subtitle-is-4-size: 24px;
 
   /* Colors */
-  --text-menu: #aaa;
-  --text-common: #2e2e2e;
   --bg-titlebar: #fff;
   --text-title: #000;
+  --text-menu: #aaa;
+  --text-common: #2e2e2e;
   --navbar-background-color-default: #f9fbff;
   --color-aliceblue: #f0f5ff;
   --color-gray: #767676;
@@ -28,6 +28,6 @@ body {
 
   /* Paddings */
   --padding-21xl: 40px;
-  --padding-base: 16px;
   --padding-5xs: 8px;
+  --padding-base: 16px;
 }

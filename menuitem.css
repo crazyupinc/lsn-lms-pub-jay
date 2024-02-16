@@ -1,38 +1,34 @@
-.label-menu,
-.menu-item {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
 .label-menu {
-  flex: 1;
+  position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
-  font-family: var(--body-regular-12);
+  font-family: var(--subtitle-is-6);
   color: var(--text-menu);
   text-align: left;
-  height: 18px;
 }
-.menu-item {
+.menuitem {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
   background-color: var(--navbar-background-color-default);
   width: 100%;
+  position: relative;
   height: 56px;
+  display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.menu-item:hover {
+.menuitem:hover {
   background-color: var(--color-aliceblue);
 }
-.menu-item:hover .label-menu {
+.menuitem:hover .label-menu {
   color: var(--color-gray);
 }
-.menu-item:focus {
+.menuitem:focus {
   background-color: var(--color-lavender);
 }
-.menu-item:focus .label-menu {
+.menuitem:focus .label-menu {
   color: var(--text-common);
 }
