@@ -25,12 +25,12 @@
 }
 .index {
   position: relative;
-  background-color: var(--text-menu);
+  background-color: var(--navbar-text-color-default);
   width: 100%;
   padding: var(--padding-21xl);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--body-regular-12-size);
   color: var(--text-common);
-  font-family: var(--subtitle-is-6);
+  font-family: var(--body-regular-12);
 }

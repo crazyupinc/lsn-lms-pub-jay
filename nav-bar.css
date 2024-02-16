@@ -5,7 +5,7 @@
   position: relative;
   font-size: var(--subtitle-is-4-size);
   line-height: 120%;
-  font-family: var(--subtitle-is-6);
+  font-family: var(--body-regular-12);
   color: var(--text-common);
   text-align: center;
 }
@@ -25,8 +25,8 @@
   position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
-  font-family: var(--subtitle-is-6);
-  color: var(--text-menu);
+  font-family: var(--body-regular-12);
+  color: var(--navbar-text-color-default);
   text-align: left;
 }
 .menuitem1,
@@ -36,7 +36,7 @@
   border: 0;
   padding: var(--padding-base);
   background-color: var(--navbar-background-color-default);
-  width: 220px;
+  align-self: stretch;
   height: 56px;
   display: flex;
   flex-direction: row;
