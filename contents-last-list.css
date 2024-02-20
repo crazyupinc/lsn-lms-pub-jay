@@ -1,0 +1,183 @@
+.icon-plus {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.label6 {
+  position: relative;
+  font-size: var(--body-regular-14-size);
+  line-height: 150%;
+  font-family: var(--subtitle-is-4);
+  color: var(--bg-titlebar);
+  text-align: left;
+}
+.button-cta {
+  cursor: pointer;
+  border: 0;
+  padding: var(--spacing-1) var(--spacing-2);
+  background-color: var(--button-background-cta);
+  border-radius: var(--spacing-05);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 0 4px;
+}
+.button-cta:hover {
+  background-color: var(--color-mediumblue-100);
+}
+.button-cta:active {
+  background-color: var(--color-midnightblue);
+  border: 1px solid var(--bg-titlebar);
+  box-sizing: border-box;
+}
+.button-cta:disabled {
+  background-color: var(--color-grey-light);
+}
+.button-cta:disabled .label6 {
+  color: var(--text-menu);
+}
+.button-dropdown,
+.button-dropdown3 {
+  border-radius: var(--spacing-05);
+  background-color: var(--bg-titlebar);
+  border: 1px solid var(--text-common);
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-1) var(--spacing-2);
+  gap: 0 4px;
+  font-family: var(--subtitle-is-4);
+  font-size: var(--body-regular-14-size);
+  color: var(--text-common);
+}
+.button-dropdown:hover {
+  background-color: var(--color-aliceblue);
+}
+.button-dropdown:active {
+  background-color: var(--color-lavender);
+  box-shadow: 0 0 0 2px #f0f5ff;
+}
+.button-dropdown3 {
+  color: var(--text-normal);
+}
+.button-dropdown3:hover {
+  background-color: var(--color-aliceblue);
+}
+.button-dropdown3:active {
+  background-color: var(--color-lavender);
+  box-shadow: 0 0 0 2px #f0f5ff;
+}
+.label7 {
+  position: relative;
+  line-height: 150%;
+}
+.button-filter,
+.button-wrapper2 {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button-filter {
+  border-radius: var(--spacing-05);
+  background-color: var(--bg-titlebar);
+  border: 1px solid var(--text-common);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--spacing-1) var(--spacing-2);
+  gap: 0 4px;
+}
+.button-filter:hover {
+  background-color: var(--color-aliceblue);
+}
+.button-filter:active {
+  background-color: var(--color-lavender);
+  box-shadow: 0 0 0 2px #f0f5ff;
+}
+.button-wrapper2 {
+  align-items: flex-start;
+  gap: 0 11px;
+}
+.icon-search1,
+.text1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.text1 {
+  border: 0;
+  outline: 0;
+  font-family: var(--subtitle-is-4);
+  font-size: var(--body-regular-14-size);
+  background-color: transparent;
+  width: 211px;
+  line-height: 150%;
+  color: var(--text-secondary);
+  text-align: left;
+  display: inline-block;
+}
+.icon-search1 {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.buttons-n-search,
+.search-field1 {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-field1 {
+  border-radius: var(--spacing-1);
+  background-color: var(--bg-titlebar);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--text-menu);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--spacing-2);
+  gap: 0 8px;
+}
+.search-field1:hover {
+  background-color: var(--color-aliceblue);
+  border: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+}
+.buttons-n-search {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.last-list-img-icon {
+  width: 1136px;
+  position: relative;
+  height: 584px;
+  object-fit: cover;
+}
+.contents-last-list {
+  width: 100%;
+  position: relative;
+  background-color: var(--bg-titlebar);
+  height: 888px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-45xl) var(--padding-21xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: 40px 0;
+  text-align: left;
+  font-size: var(--body-regular-14-size);
+  color: var(--text-common);
+  font-family: var(--subtitle-is-4);
+}

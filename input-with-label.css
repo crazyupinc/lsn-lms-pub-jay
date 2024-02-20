@@ -1,13 +1,12 @@
-.label {
+.label5 {
   position: relative;
-  line-height: 20px;
-  font-weight: 500;
+  line-height: 120%;
 }
-.input {
+.input5 {
   border: 1px solid var(--text-menu);
   outline: 0;
-  font-family: var(--subtitle-is-6);
-  font-size: var(--subtitle-is-6-size);
+  font-family: var(--subtitle-is-4);
+  font-size: var(--body-regular-14-size);
   background-color: var(--bg-titlebar);
   align-self: stretch;
   border-radius: var(--spacing-1);
@@ -20,15 +19,15 @@
   padding: var(--padding-3xs) var(--spacing-2);
   color: var(--text-common);
 }
-.input:disabled {
+.input5:disabled {
   background-color: var(--color-grey-light);
 }
-.input:focus {
+.input5:focus {
   border: 1px solid var(--color-lavender);
   box-sizing: border-box;
   box-shadow: 0 0 0 3px #f0f5ff;
 }
-.input-with-label {
+.input-with-label5 {
   width: 100%;
   position: relative;
   background-color: var(--bg-titlebar);
@@ -39,7 +38,7 @@
   justify-content: flex-start;
   gap: 6px 0;
   text-align: left;
-  font-size: var(--text-sm-medium-size);
+  font-size: var(--subtitle-is-6-size);
   color: var(--text-common);
-  font-family: var(--subtitle-is-6);
+  font-family: var(--subtitle-is-4);
 }
