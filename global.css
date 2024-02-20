@@ -6,7 +6,7 @@ body {
 :root {
   /* fonts */
   --subtitle-is-6: Inter;
-  --button-text: "Noto Sans KR";
+  --lvl2-title-text: "Noto Sans KR";
 
   /* font sizes */
   --body-regular-12-size: 12px;

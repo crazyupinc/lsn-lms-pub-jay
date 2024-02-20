@@ -35,24 +35,22 @@
   box-sizing: border-box;
   box-shadow: 0 0 0 3px #f0f5ff;
 }
-.input-with-label3 {
-  width: 320px;
-  background-color: var(--bg-titlebar);
-  height: 70px;
-  gap: 6px 0;
-}
-.input-with-label2,
-.input-with-label3,
+.input-with-label1,
 .input2 {
+  background-color: var(--bg-titlebar);
   display: flex;
+  justify-content: flex-start;
+}
+.input-with-label1 {
+  width: 320px;
+  height: 70px;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  gap: 6px 0;
 }
 .input2 {
   border: 1px solid var(--text-menu);
   outline: 0;
-  background-color: var(--bg-titlebar);
   align-self: stretch;
   border-radius: var(--spacing-1);
   box-shadow: var(--shadow-xs);
@@ -72,20 +70,20 @@
   box-sizing: border-box;
   box-shadow: 0 0 0 3px #f0f5ff;
 }
-.label-button1 {
+.label-button {
   position: relative;
   font-size: var(--text-sm-medium-size);
-  font-family: var(--button-text);
+  font-family: var(--lvl2-title-text);
   color: var(--text-common);
   text-align: left;
 }
-.button-basic1,
+.button-basic,
 .button-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-.button-basic1 {
+.button-basic {
   cursor: pointer;
   border: 1px solid var(--text-common);
   padding: var(--spacing-1) var(--spacing-4);
@@ -95,10 +93,10 @@
   height: 40px;
   align-items: center;
 }
-.button-basic1:hover {
+.button-basic:hover {
   background-color: var(--color-aliceblue);
 }
-.button-basic1:active {
+.button-basic:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
@@ -141,5 +139,5 @@
   text-align: left;
   font-size: var(--subtitle-is-4-size);
   color: var(--text-normal);
-  font-family: var(--button-text);
+  font-family: var(--lvl2-title-text);
 }
