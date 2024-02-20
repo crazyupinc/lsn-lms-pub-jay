@@ -1,18 +1,22 @@
-.icon-plus {
-  width: 24px;
+.icon-plus1,
+.label8 {
   position: relative;
+  flex-shrink: 0;
+}
+.icon-plus1 {
+  width: 24px;
   height: 24px;
   overflow: hidden;
-  flex-shrink: 0;
   object-fit: cover;
 }
-.label {
-  position: relative;
+.label8 {
+  width: 69px;
   font-size: var(--body-regular-14-size);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
   color: var(--bg-titlebar);
-  text-align: left;
+  text-align: center;
+  display: inline-block;
 }
 .button-cta {
   cursor: pointer;

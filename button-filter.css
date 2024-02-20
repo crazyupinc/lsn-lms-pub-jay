@@ -1,14 +1,18 @@
-.icon-sliders {
-  width: 24px;
+.icon-sliders1,
+.label9 {
   position: relative;
+  flex-shrink: 0;
+}
+.icon-sliders1 {
+  width: 24px;
   height: 24px;
   overflow: hidden;
-  flex-shrink: 0;
   object-fit: cover;
 }
-.label {
-  position: relative;
+.label9 {
+  width: 52px;
   line-height: 150%;
+  display: inline-block;
 }
 .button-filter {
   position: relative;
@@ -24,7 +28,7 @@
   justify-content: flex-start;
   padding: var(--spacing-1) var(--spacing-2);
   gap: 0 4px;
-  text-align: left;
+  text-align: center;
   font-size: var(--body-regular-14-size);
   color: var(--text-common);
   font-family: var(--subtitle-is-4);
