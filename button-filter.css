@@ -1,18 +1,14 @@
-.icon-sliders,
-.label7 {
-  position: relative;
-  flex-shrink: 0;
-}
 .icon-sliders {
   width: 24px;
+  position: relative;
   height: 24px;
   overflow: hidden;
+  flex-shrink: 0;
   object-fit: cover;
 }
 .label7 {
-  width: 52px;
+  position: relative;
   line-height: 150%;
-  display: inline-block;
 }
 .button-filter {
   position: relative;
@@ -28,7 +24,7 @@
   justify-content: flex-start;
   padding: var(--spacing-1) var(--spacing-2);
   gap: 0 4px;
-  text-align: center;
+  text-align: left;
   font-size: var(--body-regular-14-size);
   color: var(--text-common);
   font-family: var(--subtitle-is-4);
