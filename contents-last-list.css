@@ -1,15 +1,15 @@
-.icon-plus,
-.label6 {
+.icon-plus1,
+.label8 {
   position: relative;
   flex-shrink: 0;
 }
-.icon-plus {
+.icon-plus1 {
   width: 24px;
   height: 24px;
   overflow: hidden;
   object-fit: cover;
 }
-.label6 {
+.label8 {
   width: 69px;
   font-size: var(--body-regular-14-size);
   line-height: 150%;
@@ -18,7 +18,7 @@
   text-align: center;
   display: inline-block;
 }
-.button-cta {
+.button-cta1 {
   cursor: pointer;
   border: 0;
   padding: var(--spacing-1) var(--spacing-2);
@@ -32,15 +32,15 @@
   box-sizing: border-box;
   gap: 0 4px;
 }
-.button-cta:hover {
+.button-cta1:hover {
   background-color: var(--color-mediumblue-100);
 }
-.button-cta:active {
+.button-cta1:active {
   background-color: var(--color-midnightblue);
   border: 1px solid var(--bg-titlebar);
   box-sizing: border-box;
 }
-.button-cta:disabled {
+.button-cta1:disabled {
   background-color: var(--color-grey-light);
 }
 .button-cta:disabled .label {
@@ -62,24 +62,24 @@
   font-size: var(--body-regular-14-size);
   color: var(--text-common);
 }
-.button-dropdown:hover {
+.button-dropdown1:hover {
   background-color: var(--color-aliceblue);
 }
-.button-dropdown:active {
+.button-dropdown1:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
 .button-dropdown {
   color: var(--text-normal);
 }
-.button-dropdown3:hover {
+.button-dropdown4:hover {
   background-color: var(--color-aliceblue);
 }
-.button-dropdown3:active {
+.button-dropdown4:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
-.label7 {
+.label9 {
   width: 52px;
   position: relative;
   line-height: 150%;
@@ -93,7 +93,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.button-filter {
+.button-filter1 {
   border-radius: var(--spacing-05);
   background-color: var(--bg-titlebar);
   border: 1px solid var(--text-common);
@@ -102,10 +102,10 @@
   padding: var(--spacing-1) var(--spacing-2);
   gap: 0 4px;
 }
-.button-filter:hover {
+.button-filter1:hover {
   background-color: var(--color-aliceblue);
 }
-.button-filter:active {
+.button-filter1:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }

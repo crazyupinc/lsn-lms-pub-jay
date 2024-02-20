@@ -1,15 +1,15 @@
-.icon-plus1,
-.label8 {
+.icon-plus,
+.label6 {
   position: relative;
   flex-shrink: 0;
 }
-.icon-plus1 {
+.icon-plus {
   width: 24px;
   height: 24px;
   overflow: hidden;
   object-fit: cover;
 }
-.label8 {
+.label6 {
   width: 69px;
   font-size: var(--body-regular-14-size);
   line-height: 150%;
