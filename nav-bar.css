@@ -5,7 +5,7 @@
   position: relative;
   font-size: var(--subtitle-is-4-size);
   line-height: 120%;
-  font-family: var(--subtitle-is-6);
+  font-family: var(--subtitle-is-4);
   color: var(--text-common);
   text-align: center;
 }
@@ -25,7 +25,7 @@
   position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
-  font-family: var(--subtitle-is-6);
+  font-family: var(--subtitle-is-4);
   color: var(--text-menu);
   text-align: left;
 }

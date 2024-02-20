@@ -9,7 +9,7 @@
   position: relative;
   font-size: var(--body-regular-12-size);
   line-height: 150%;
-  font-family: var(--subtitle-is-6);
+  font-family: var(--subtitle-is-4);
   color: var(--text-title);
   text-align: left;
 }
