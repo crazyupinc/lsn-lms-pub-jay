@@ -38,7 +38,7 @@
   box-shadow: 0 0 0 3px #f0f5ff;
 }
 .input-with-label,
-.input1 {
+.input {
   background-color: var(--bg-titlebar);
   display: flex;
   justify-content: flex-start;
@@ -49,28 +49,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 6px 0;
-}
-.input1 {
-  border: 1px solid var(--text-menu);
-  outline: 0;
-  align-self: stretch;
-  border-radius: var(--spacing-1);
-  box-shadow: var(--shadow-xs);
-  overflow: hidden;
-  flex-direction: row;
-  align-items: center;
-  padding: var(--padding-3xs) var(--spacing-2);
-  font-family: var(--subtitle-is-4);
-  font-size: var(--body-regular-14-size);
-  color: var(--text-common);
-}
-.input1:disabled {
-  background-color: var(--color-grey-light);
-}
-.input1:focus {
-  border: 1px solid var(--color-lavender);
-  box-sizing: border-box;
-  box-shadow: 0 0 0 3px #f0f5ff;
 }
 .label-button {
   position: relative;
@@ -103,7 +81,6 @@
 .button-basic:disabled {
   background-color: var(--color-grey-light);
 }
-.button-basic1:disabled .label-button,
 .button-basic:disabled .label-button {
   color: var(--text-menu);
 }
@@ -120,7 +97,7 @@
   align-items: flex-start;
   gap: 14px 0;
 }
-.button-basic1,
+.button-basic,
 .card-body,
 .card-myinfo {
   display: flex;
@@ -133,28 +110,7 @@
   padding: var(--spacing-2) 0;
   gap: 16px 0;
 }
-.button-basic1 {
-  cursor: pointer;
-  border: 1px solid var(--text-common);
-  padding: var(--spacing-1) var(--spacing-4);
-  background-color: var(--bg-titlebar);
-  border-radius: var(--spacing-05);
-  box-sizing: border-box;
-  height: 40px;
-  flex-direction: row;
-  align-items: center;
-}
-.button-basic1:hover {
-  background-color: var(--color-aliceblue);
-}
-.button-basic1:active {
-  background-color: var(--color-lavender);
-  box-shadow: 0 0 0 2px #f0f5ff;
-}
-.button-basic1:disabled {
-  background-color: var(--color-grey-light);
-}
-.button-wrapper1,
+.button-wrapper,
 .contents-myinfo {
   display: flex;
   flex-direction: column;

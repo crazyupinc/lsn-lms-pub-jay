@@ -6,7 +6,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.label6 {
+.label {
   position: relative;
   font-size: var(--body-regular-14-size);
   line-height: 150%;
@@ -39,11 +39,10 @@
 .button-cta:disabled {
   background-color: var(--color-grey-light);
 }
-.button-cta:disabled .label6 {
+.button-cta:disabled .label {
   color: var(--text-menu);
 }
-.button-dropdown,
-.button-dropdown3 {
+.button-dropdown {
   border-radius: var(--spacing-05);
   background-color: var(--bg-titlebar);
   border: 1px solid var(--text-common);
@@ -66,22 +65,11 @@
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
-.button-dropdown3 {
+.button-dropdown {
   color: var(--text-normal);
 }
-.button-dropdown3:hover {
-  background-color: var(--color-aliceblue);
-}
-.button-dropdown3:active {
-  background-color: var(--color-lavender);
-  box-shadow: 0 0 0 2px #f0f5ff;
-}
-.label7 {
-  position: relative;
-  line-height: 150%;
-}
 .button-filter,
-.button-wrapper2 {
+.button-wrapper {
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -103,16 +91,16 @@
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
-.button-wrapper2 {
+.button-wrapper {
   align-items: flex-start;
   gap: 0 11px;
 }
-.icon-search1,
-.text1 {
+.icon-search,
+.text {
   position: relative;
   flex-shrink: 0;
 }
-.text1 {
+.text {
   border: 0;
   outline: 0;
   font-family: var(--subtitle-is-4);
@@ -124,20 +112,20 @@
   text-align: left;
   display: inline-block;
 }
-.icon-search1 {
+.icon-search {
   width: 24px;
   height: 24px;
   overflow: hidden;
   object-fit: cover;
 }
 .buttons-n-search,
-.search-field1 {
+.search-field {
   height: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.search-field1 {
+.search-field {
   border-radius: var(--spacing-1);
   background-color: var(--bg-titlebar);
   box-shadow: var(--shadow-xs);
@@ -148,7 +136,7 @@
   padding: var(--padding-3xs) var(--spacing-2);
   gap: 0 8px;
 }
-.search-field1:hover {
+.search-field:hover {
   background-color: var(--color-aliceblue);
   border: 1px solid var(--color-lavender);
   box-sizing: border-box;

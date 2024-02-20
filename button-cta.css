@@ -1,4 +1,4 @@
-.icon-plus1 {
+.icon-plus {
   width: 24px;
   position: relative;
   height: 24px;
@@ -6,7 +6,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.label8 {
+.label {
   position: relative;
   font-size: var(--body-regular-14-size);
   line-height: 150%;
@@ -14,7 +14,7 @@
   color: var(--bg-titlebar);
   text-align: left;
 }
-.button-cta1 {
+.button-cta {
   cursor: pointer;
   border: 0;
   padding: var(--spacing-1) var(--spacing-2);
@@ -30,17 +30,17 @@
   box-sizing: border-box;
   gap: 0 4px;
 }
-.button-cta1:hover {
+.button-cta:hover {
   background-color: var(--color-mediumblue-100);
 }
-.button-cta1:active {
+.button-cta:active {
   background-color: var(--color-midnightblue);
   border: 1px solid var(--bg-titlebar);
   box-sizing: border-box;
 }
-.button-cta1:disabled {
+.button-cta:disabled {
   background-color: var(--color-grey-light);
 }
-.button-cta1:disabled .label8 {
+.button-cta:disabled .label {
   color: var(--text-menu);
 }

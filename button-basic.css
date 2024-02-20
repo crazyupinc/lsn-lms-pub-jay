@@ -1,4 +1,4 @@
-.label-button2 {
+.label-button {
   position: relative;
   font-size: var(--body-regular-14-size);
   line-height: 150%;
@@ -6,7 +6,7 @@
   color: var(--text-common);
   text-align: left;
 }
-.button-basic2 {
+.button-basic {
   cursor: pointer;
   border: 1px solid var(--text-common);
   padding: var(--spacing-1) var(--spacing-4);
@@ -21,16 +21,16 @@
   align-items: center;
   justify-content: flex-start;
 }
-.button-basic2:hover {
+.button-basic:hover {
   background-color: var(--color-aliceblue);
 }
-.button-basic2:active {
+.button-basic:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
-.button-basic2:disabled {
+.button-basic:disabled {
   background-color: var(--color-grey-light);
 }
-.button-basic2:disabled .label-button2 {
+.button-basic:disabled .label-button {
   color: var(--text-menu);
 }

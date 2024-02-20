@@ -1,8 +1,8 @@
-.label5 {
+.label {
   position: relative;
   line-height: 120%;
 }
-.input5 {
+.input {
   border: 1px solid var(--text-menu);
   outline: 0;
   font-family: var(--subtitle-is-4);
@@ -19,15 +19,15 @@
   padding: var(--padding-3xs) var(--spacing-2);
   color: var(--text-common);
 }
-.input5:disabled {
+.input:disabled {
   background-color: var(--color-grey-light);
 }
-.input5:focus {
+.input:focus {
   border: 1px solid var(--color-lavender);
   box-sizing: border-box;
   box-shadow: 0 0 0 3px #f0f5ff;
 }
-.input-with-label5 {
+.input-with-label {
   width: 100%;
   position: relative;
   background-color: var(--bg-titlebar);
