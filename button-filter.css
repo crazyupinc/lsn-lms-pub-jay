@@ -1,16 +1,20 @@
-.icon-sliders {
-  width: 24px;
+.icon-sliders1,
+.label-filter1 {
   position: relative;
+  flex-shrink: 0;
+}
+.icon-sliders1 {
+  width: 24px;
   height: 24px;
   overflow: hidden;
-  flex-shrink: 0;
   object-fit: cover;
 }
-.label7 {
-  position: relative;
+.label-filter1 {
+  width: 52px;
   line-height: 150%;
+  display: inline-block;
 }
-.button-filter {
+.button-filter1 {
   position: relative;
   border-radius: var(--spacing-05);
   background-color: var(--bg-titlebar);
@@ -24,15 +28,15 @@
   justify-content: flex-start;
   padding: var(--spacing-1) var(--spacing-2);
   gap: 0 4px;
-  text-align: left;
+  text-align: center;
   font-size: var(--body-regular-14-size);
   color: var(--text-common);
   font-family: var(--subtitle-is-4);
 }
-.button-filter:hover {
+.button-filter1:hover {
   background-color: var(--color-aliceblue);
 }
-.button-filter:active {
+.button-filter1:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
