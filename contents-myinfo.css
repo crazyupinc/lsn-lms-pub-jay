@@ -1,5 +1,5 @@
 .card-header,
-.label1 {
+.label {
   position: relative;
   font-weight: 500;
 }
@@ -7,10 +7,10 @@
   align-self: stretch;
   line-height: 40px;
 }
-.label1 {
+.label {
   line-height: 20px;
 }
-.input1 {
+.input {
   border: 1px solid var(--text-menu);
   outline: 0;
   font-family: var(--subtitle-is-6);
@@ -27,28 +27,28 @@
   padding: var(--padding-3xs) var(--spacing-2);
   color: var(--text-common);
 }
-.input1:disabled {
+.input:disabled {
   background-color: var(--color-grey-light);
 }
-.input1:focus {
+.input:focus {
   border: 1px solid var(--color-lavender);
   box-sizing: border-box;
   box-shadow: 0 0 0 3px #f0f5ff;
 }
-.input-with-label1,
-.input2 {
+.input-with-label,
+.input {
   background-color: var(--bg-titlebar);
   display: flex;
   justify-content: flex-start;
 }
-.input-with-label1 {
+.input-with-label {
   width: 320px;
   height: 70px;
   flex-direction: column;
   align-items: flex-start;
   gap: 6px 0;
 }
-.input2 {
+.input {
   border: 1px solid var(--text-menu);
   outline: 0;
   align-self: stretch;
@@ -110,7 +110,7 @@
   color: var(--text-common);
   font-family: var(--subtitle-is-6);
 }
-.button-wrapper1,
+.button-wrapper,
 .card-body,
 .card-myinfo,
 .contents-myinfo {
@@ -124,7 +124,7 @@
   padding: var(--spacing-2) 0;
   gap: 8px 0;
 }
-.button-wrapper1,
+.button-wrapper,
 .contents-myinfo {
   padding: var(--padding-5xs) 0;
 }

@@ -1,11 +1,11 @@
-.label-button2 {
+.label-button {
   position: relative;
   font-size: var(--text-sm-medium-size);
   font-family: var(--lvl2-title-text);
   color: var(--text-common);
   text-align: left;
 }
-.button-basic2 {
+.button-basic {
   cursor: pointer;
   border: 1px solid var(--text-common);
   padding: var(--spacing-1) var(--spacing-4);
@@ -20,10 +20,10 @@
   align-items: center;
   justify-content: flex-start;
 }
-.button-basic2:hover {
+.button-basic:hover {
   background-color: var(--color-aliceblue);
 }
-.button-basic2:active {
+.button-basic:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
