@@ -62,10 +62,10 @@
   font-size: var(--subtitle-is-6-size);
   color: var(--text-common);
 }
-.input2:disabled {
+.input:disabled {
   background-color: var(--color-grey-light);
 }
-.input2:focus {
+.input:focus {
   border: 1px solid var(--color-lavender);
   box-sizing: border-box;
   box-shadow: 0 0 0 3px #f0f5ff;
