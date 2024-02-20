@@ -42,7 +42,7 @@
 .button-cta:disabled .label {
   color: var(--text-menu);
 }
-.button-dropdown {
+.button-dropdown1 {
   border-radius: var(--spacing-05);
   background-color: var(--bg-titlebar);
   border: 1px solid var(--text-common);
@@ -65,16 +65,7 @@
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
-.button-dropdown {
-  color: var(--text-normal);
-}
-.button-dropdown4:hover {
-  background-color: var(--color-aliceblue);
-}
-.button-dropdown4:active {
-  background-color: var(--color-lavender);
-  box-shadow: 0 0 0 2px #f0f5ff;
-}
+
 .label9 {
   position: relative;
   line-height: 150%;
