@@ -5,32 +5,53 @@ body {
 
 :root {
   /* fonts */
-  --body-regular-12: Inter;
+  --subtitle-is-6: Inter;
+  --button-text: "Noto Sans KR";
 
   /* font sizes */
   --body-regular-12-size: 12px;
   --heading-is-5-size: 20px;
   --subtitle-is-6-size: 16px;
   --subtitle-is-4-size: 24px;
+  --text-sm-medium-size: 14px;
 
   /* Colors */
+  --text-secondary: #767676;
+  --text-normal: #111;
+  --color-transparent: rgba(255, 255, 255, 0);
   --text-menu: #aaa;
   --text-common: #2e2e2e;
   --bg-titlebar: #fff;
   --text-title: #000;
   --navbar-background-color-default: #f9fbff;
+  --color-grey-light: #f3f3f3;
   --color-aliceblue: #f0f5ff;
-  --color-gray: #767676;
   --color-lavender: #cedeff;
+
+  /* Spacing */
+  --spacing-2: 16px;
+  --spacing-1: 8px;
+  --spacing-4: 32px;
+  --spacing-05: 4px;
 
   /* Gaps */
   --gap-3xs: 10px;
-  --gap-5xs: 8px;
+  --gap-0: 0px;
   --gap-21xl: 40px;
+  --gap-7xs: 6px;
+  --gap-5xs: 8px;
 
   /* Paddings */
   --padding-21xl: 40px;
   --padding-base: 16px;
   --padding-3xs: 10px;
   --padding-5xs: 8px;
+  --padding-13xl: 32px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }

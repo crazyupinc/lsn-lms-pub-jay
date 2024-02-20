@@ -1,12 +1,12 @@
-.label-menu {
+.label-menu3 {
   position: relative;
   font-size: var(--subtitle-is-6-size);
   line-height: 120%;
-  font-family: var(--body-regular-12);
+  font-family: var(--subtitle-is-6);
   color: var(--text-menu);
   text-align: left;
 }
-.menuitem {
+.menuitem3 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-base);
@@ -20,15 +20,15 @@
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.menuitem:hover {
+.menuitem3:hover {
   background-color: var(--color-aliceblue);
 }
-.menuitem:hover .label-menu {
-  color: var(--color-gray);
+.menuitem3:hover .label-menu3 {
+  color: var(--text-secondary);
 }
-.menuitem:focus {
+.menuitem3:focus {
   background-color: var(--color-lavender);
 }
-.menuitem:focus .label-menu {
+.menuitem3:focus .label-menu3 {
   color: var(--text-common);
 }
