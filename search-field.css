@@ -2,7 +2,7 @@
   border: 0;
   outline: 0;
   font-family: var(--subtitle-is-4);
-  font-size: var(--body-regular-14-size);
+  font-size: var(--font-size-sm);
   background-color: transparent;
   width: 211px;
   position: relative;

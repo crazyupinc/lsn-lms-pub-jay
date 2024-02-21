@@ -6,7 +6,7 @@
   border: 1px solid var(--text-menu);
   outline: 0;
   font-family: var(--subtitle-is-4);
-  font-size: var(--body-regular-14-size);
+  font-size: var(--font-size-sm);
   background-color: var(--bg-titlebar);
   align-self: stretch;
   border-radius: var(--spacing-1);

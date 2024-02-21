@@ -10,7 +10,7 @@
 }
 .label-cta {
   width: 69px;
-  font-size: var(--body-regular-14-size);
+  font-size: var(--font-size-sm);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
   color: var(--bg-titlebar);

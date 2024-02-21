@@ -28,7 +28,7 @@
   padding: var(--spacing-1) var(--spacing-2);
   gap: 0 4px;
   text-align: center;
-  font-size: var(--body-regular-14-size);
+  font-size: var(--font-size-sm);
   color: var(--text-common);
   font-family: var(--subtitle-is-4);
 }
