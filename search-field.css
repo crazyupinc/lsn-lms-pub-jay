@@ -12,16 +12,15 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.icon-search,
-.search-field {
+.icon-search-1,
+.search-field1 {
   position: relative;
   overflow: hidden;
 }
-.icon-search {
+.icon-search-1 {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
-  object-fit: cover;
 }
 .search-field {
   border-radius: var(--spacing-1);
