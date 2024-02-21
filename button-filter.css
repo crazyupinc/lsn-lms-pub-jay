@@ -1,20 +1,20 @@
-.icon-sliders1,
-.label-filter1 {
+.icon-sliders,
+.label-filter {
   position: relative;
   flex-shrink: 0;
 }
-.icon-sliders1 {
+.icon-sliders {
   width: 24px;
   height: 24px;
   overflow: hidden;
   object-fit: cover;
 }
-.label-filter1 {
+.label-filter {
   width: 52px;
   line-height: 150%;
   display: inline-block;
 }
-.button-filter1 {
+.button-filter {
   position: relative;
   border-radius: var(--spacing-05);
   background-color: var(--bg-titlebar);
@@ -33,10 +33,10 @@
   color: var(--text-common);
   font-family: var(--subtitle-is-4);
 }
-.button-filter1:hover {
+.button-filter:hover {
   background-color: var(--color-aliceblue);
 }
-.button-filter1:active {
+.button-filter:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }

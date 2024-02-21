@@ -77,7 +77,7 @@
   flex-shrink: 0;
 }
 .button-filter,
-.button-wrapper2 {
+.button-wrapper {
   height: 40px;
   display: flex;
   flex-direction: row;

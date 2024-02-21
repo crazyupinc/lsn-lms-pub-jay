@@ -1,4 +1,4 @@
-.button-dropdown4 {
+.button-dropdown {
   position: relative;
   border-radius: var(--spacing-05);
   background-color: var(--bg-titlebar);
@@ -16,10 +16,10 @@
   font-size: var(--body-regular-14-size);
   color: var(--text-common);
 }
-.button-dropdown4:hover {
+.button-dropdown:hover {
   background-color: var(--color-aliceblue);
 }
-.button-dropdown4:active {
+.button-dropdown:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
