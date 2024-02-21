@@ -1,12 +1,10 @@
-.label {
+.label5 {
   position: relative;
   line-height: 120%;
 }
-.input {
+.input5 {
   border: 1px solid var(--text-menu);
   outline: 0;
-  font-family: var(--subtitle-is-4);
-  font-size: var(--font-size-sm);
   background-color: var(--bg-titlebar);
   align-self: stretch;
   border-radius: var(--spacing-1);
@@ -17,17 +15,19 @@
   align-items: center;
   justify-content: flex-start;
   padding: var(--padding-3xs) var(--spacing-2);
+  font-family: var(--subtitle-is-4);
+  font-size: var(--font-size-sm);
   color: var(--text-common);
 }
-.input:disabled {
+.input5:disabled {
   background-color: var(--color-grey-light);
 }
-.input:focus {
+.input5:focus {
   border: 1px solid var(--color-lavender);
   box-sizing: border-box;
   box-shadow: 0 0 0 3px #f0f5ff;
 }
-.input-with-label {
+.input-with-label5 {
   width: 100%;
   position: relative;
   background-color: var(--bg-titlebar);

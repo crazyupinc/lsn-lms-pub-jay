@@ -1,14 +1,14 @@
-.icon-plus,
-.label-cta {
+.icon-plus1,
+.label-cta1 {
   position: relative;
   flex-shrink: 0;
 }
-.icon-plus {
+.icon-plus1 {
   width: 24px;
   height: 24px;
   overflow: hidden;
 }
-.label-cta {
+.label-cta1 {
   width: 69px;
   font-size: var(--font-size-sm);
   line-height: 150%;
@@ -17,7 +17,7 @@
   text-align: center;
   display: inline-block;
 }
-.button-cta {
+.button-cta1 {
   cursor: pointer;
   border: 0;
   padding: var(--spacing-1) var(--spacing-2);
@@ -33,17 +33,17 @@
   box-sizing: border-box;
   gap: 0 4px;
 }
-.button-cta:hover {
+.button-cta1:hover {
   background-color: var(--color-mediumblue-100);
 }
-.button-cta:active {
+.button-cta1:active {
   background-color: var(--color-midnightblue);
   border: 1px solid var(--bg-titlebar);
   box-sizing: border-box;
 }
-.button-cta:disabled {
+.button-cta1:disabled {
   background-color: var(--color-grey-light);
 }
-.button-cta:disabled .label-cta {
+.button-cta1:disabled .label-cta1 {
   color: var(--text-menu);
 }

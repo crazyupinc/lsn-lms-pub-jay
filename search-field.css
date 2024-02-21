@@ -1,4 +1,4 @@
-.text {
+.text1 {
   border: 0;
   outline: 0;
   font-family: var(--subtitle-is-4);
@@ -12,17 +12,17 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.icon-search,
+.icon-search-1,
 .search-field1 {
   position: relative;
   overflow: hidden;
 }
-.icon-search {
+.icon-search-1 {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
 }
-.search-field {
+.search-field1 {
   border-radius: var(--spacing-1);
   background-color: var(--bg-titlebar);
   box-shadow: var(--shadow-xs);
@@ -37,7 +37,7 @@
   padding: var(--padding-3xs) var(--spacing-2);
   gap: 0 8px;
 }
-.search-field:hover {
+.search-field1:hover {
   background-color: var(--color-aliceblue);
   border: 1px solid var(--color-lavender);
   box-sizing: border-box;

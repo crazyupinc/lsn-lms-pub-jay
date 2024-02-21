@@ -1,19 +1,19 @@
-.icon-sliders,
-.label-filter {
+.icon-sliders1,
+.label-filter1 {
   position: relative;
   flex-shrink: 0;
 }
-.icon-sliders {
+.icon-sliders1 {
   width: 24px;
   height: 24px;
   overflow: hidden;
 }
-.label-filter {
+.label-filter1 {
   width: 52px;
   line-height: 150%;
   display: inline-block;
 }
-.button-filter {
+.button-filter1 {
   position: relative;
   border-radius: var(--spacing-05);
   background-color: var(--bg-titlebar);
@@ -32,10 +32,10 @@
   color: var(--text-common);
   font-family: var(--subtitle-is-4);
 }
-.button-filter:hover {
+.button-filter1:hover {
   background-color: var(--color-aliceblue);
 }
-.button-filter:active {
+.button-filter1:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
