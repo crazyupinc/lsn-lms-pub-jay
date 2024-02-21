@@ -12,12 +12,12 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.icon-search-1,
+.icon-search,
 .search-field1 {
   position: relative;
   overflow: hidden;
 }
-.icon-search-1 {
+.icon-search {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
