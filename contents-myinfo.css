@@ -47,7 +47,7 @@
   justify-content: flex-start;
   gap: 6px 0;
 }
-.label-button1 {
+.label-button {
   position: relative;
   font-size: var(--font-size-sm);
   line-height: 150%;
@@ -55,7 +55,7 @@
   color: var(--text-common);
   text-align: left;
 }
-.button-basic1 {
+.button-basic {
   cursor: pointer;
   border: 1px solid var(--text-common);
   padding: var(--spacing-1) var(--spacing-4);
@@ -68,21 +68,20 @@
   align-items: center;
   justify-content: flex-start;
 }
-.button-basic1:hover {
+.button-basic:hover {
   background-color: var(--color-aliceblue);
 }
-.button-basic1:active {
+.button-basic:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
-.button-basic1:disabled {
+.button-basic:disabled {
   background-color: var(--color-grey-light);
 }
-.button-basic1:disabled .label-button1,
-.button-basic2:disabled .label-button1 {
+.button-basic:disabled .label-button {
   color: var(--text-menu);
 }
-.button-wrapper1 {
+.button-wrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -95,7 +94,7 @@
   align-items: flex-start;
   gap: 14px 0;
 }
-.button-basic2,
+.button-basic,
 .card-body,
 .card-myinfo {
   display: flex;
@@ -108,7 +107,7 @@
   padding: var(--spacing-2) 0;
   gap: 16px 0;
 }
-.button-basic2 {
+.button-basic {
   cursor: pointer;
   border: 1px solid var(--text-common);
   padding: var(--spacing-1) var(--spacing-4);
@@ -119,17 +118,7 @@
   flex-direction: row;
   align-items: center;
 }
-.button-basic2:hover {
-  background-color: var(--color-aliceblue);
-}
-.button-basic2:active {
-  background-color: var(--color-lavender);
-  box-shadow: 0 0 0 2px #f0f5ff;
-}
-.button-basic2:disabled {
-  background-color: var(--color-grey-light);
-}
-.button-wrapper2,
+.button-wrapper,
 .contents-myinfo {
   display: flex;
   flex-direction: column;
