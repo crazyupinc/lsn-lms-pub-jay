@@ -6,7 +6,7 @@
   font-size: var(--subtitle-is-4-size);
   line-height: 120%;
   font-family: var(--subtitle-is-4);
-  color: var(--border-primary);
+  color: var(--text-common);
   text-align: center;
 }
 .mainlogo1 {
@@ -54,7 +54,7 @@
   background-color: var(--color-lavender);
 }
 .menuitem4:focus .label-menu4 {
-  color: var(--border-primary);
+  color: var(--text-common);
 }
 .menuitem5:hover {
   background-color: var(--color-aliceblue);
@@ -66,7 +66,7 @@
   background-color: var(--color-lavender);
 }
 .menuitem5:focus .label-menu4 {
-  color: var(--border-primary);
+  color: var(--text-common);
 }
 .menuitem6:hover {
   background-color: var(--color-aliceblue);
@@ -78,7 +78,7 @@
   background-color: var(--color-lavender);
 }
 .menuitem6:focus .label-menu4 {
-  color: var(--border-primary);
+  color: var(--text-common);
 }
 .menu-list1,
 .nav-bar1 {

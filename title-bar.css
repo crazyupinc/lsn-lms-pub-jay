@@ -46,7 +46,7 @@
 .title-bar1 {
   width: 100%;
   position: relative;
-  background-color: var(--button-background-default);
+  background-color: var(--bg-titlebar);
   box-shadow: 0-0.5px 0 rgba(0, 0, 0, 0.25) inset;
   justify-content: space-between;
   padding: var(--padding-3xs) var(--padding-21xl);

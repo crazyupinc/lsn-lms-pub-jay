@@ -30,5 +30,5 @@
   background-color: var(--color-lavender);
 }
 .menuitem3:focus .label-menu3 {
-  color: var(--border-primary);
+  color: var(--text-common);
 }

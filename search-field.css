@@ -1,7 +1,7 @@
 .search-field1 {
   border: 1px solid var(--text-menu);
   outline: 0;
-  background-color: var(--button-background-default);
+  background-color: var(--bg-titlebar);
   height: 40px;
   position: relative;
   border-radius: var(--spacing-1);

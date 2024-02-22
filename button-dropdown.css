@@ -1,9 +1,9 @@
-.button-dropdown {
+.button-dropdown4 {
   height: 40px;
   position: relative;
   border-radius: var(--spacing-05);
-  background-color: var(--button-background-default);
-  border: 1px solid var(--border-primary);
+  background-color: var(--bg-titlebar);
+  border: 1px solid var(--text-common);
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -14,7 +14,7 @@
   gap: 0 4px;
   font-family: var(--subtitle-is-4);
   font-size: var(--font-size-sm);
-  color: var(--border-primary);
+  color: var(--text-common);
   appearance: none;
   background: #fff;
   background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
@@ -22,16 +22,16 @@
   background-position: right 8px bottom 50%;
   padding-right: var(--spacing-5);
 }
-.button-dropdown:active,
-.button-dropdown:hover {
+.button-dropdown4:active,
+.button-dropdown4:hover {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }
-.button-dropdown:focus {
+.button-dropdown4:focus {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }
-.button-dropdown:checked {
+.button-dropdown4:checked {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }

@@ -6,7 +6,7 @@
 .input,
 .label {
   font-family: var(--subtitle-is-4);
-  color: var(--border-primary);
+  color: var(--text-common);
 }
 .label {
   position: relative;
@@ -17,7 +17,7 @@
 .input {
   border: 1px solid var(--text-menu);
   outline: 0;
-  background-color: var(--button-background-default);
+  background-color: var(--bg-titlebar);
   align-self: stretch;
   border-radius: var(--spacing-1);
   box-shadow: var(--shadow-xs);
@@ -39,7 +39,7 @@
 }
 .input-with-label {
   width: 320px;
-  background-color: var(--button-background-default);
+  background-color: var(--bg-titlebar);
   height: 70px;
   display: flex;
   flex-direction: column;
@@ -52,14 +52,14 @@
   font-size: var(--font-size-sm);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
-  color: var(--border-primary);
+  color: var(--text-common);
   text-align: left;
 }
 .button-basic {
   cursor: pointer;
-  border: 1px solid var(--border-primary);
+  border: 1px solid var(--text-common);
   padding: var(--spacing-1) var(--spacing-4);
-  background-color: var(--button-background-default);
+  background-color: var(--bg-titlebar);
   border-radius: var(--spacing-05);
   box-sizing: border-box;
   height: 40px;
@@ -110,9 +110,9 @@
 }
 .button-basic1 {
   cursor: pointer;
-  border: 1px solid var(--border-primary);
+  border: 1px solid var(--text-common);
   padding: var(--spacing-1) var(--spacing-4);
-  background-color: var(--button-background-default);
+  background-color: var(--bg-titlebar);
   border-radius: var(--spacing-05);
   box-sizing: border-box;
   height: 40px;
@@ -140,7 +140,7 @@
 .contents-myinfo {
   width: 100%;
   position: relative;
-  background-color: var(--button-background-default);
+  background-color: var(--bg-titlebar);
   justify-content: center;
   padding: var(--spacing-lg);
   box-sizing: border-box;

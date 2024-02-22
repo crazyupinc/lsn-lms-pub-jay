@@ -13,7 +13,7 @@
   font-size: var(--font-size-sm);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
-  color: var(--button-background-default);
+  color: var(--bg-titlebar);
   text-align: center;
   display: inline-block;
 }
