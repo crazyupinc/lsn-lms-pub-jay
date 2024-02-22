@@ -12,7 +12,7 @@ body {
   --heading-is-5-size: 20px;
   --subtitle-is-6-size: 16px;
   --subtitle-is-4-size: 24px;
-  --font-size-sm: 14px;
+  --body-regular-14-size: 14px;
 
   /* Colors */
   --text-secondary: #767676;
@@ -28,6 +28,7 @@ body {
   --color-lavender: #cedeff;
   --button-background-cta: #283eff;
   --color-mediumblue-100: #1121cd;
+  --color-midnightblue: #000d73;
 
   /* Spacing */
   --spacing-lg: 40px;

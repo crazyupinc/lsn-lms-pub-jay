@@ -13,7 +13,7 @@
   padding: var(--spacing-1) var(--spacing-5);
   gap: 0 4px;
   font-family: var(--subtitle-is-4);
-  font-size: var(--font-size-sm);
+  font-size: var(--body-regular-14-size);
   color: var(--text-common);
   appearance: none;
   background: #fff;

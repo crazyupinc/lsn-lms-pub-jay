@@ -10,7 +10,7 @@
 }
 .label-cta {
   width: 69px;
-  font-size: var(--font-size-sm);
+  font-size: var(--body-regular-14-size);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
   color: var(--bg-titlebar);
@@ -34,13 +34,16 @@
 .button-cta:hover {
   background-color: var(--color-mediumblue-100);
 }
+.button-cta:active {
+  background-color: var(--color-midnightblue);
+}
 .button-cta:disabled {
   background-color: var(--color-grey-light);
 }
-.button-cta:disabled .label-cta1 {
+.button-cta:disabled .label-cta {
   color: var(--text-menu);
 }
-.button-dropdown {
+.button-dropdown1 {
   height: 40px;
   border-radius: var(--spacing-05);
   background-color: var(--bg-titlebar);
@@ -53,7 +56,7 @@
   padding: var(--spacing-1) var(--spacing-5) var(--spacing-1) var(--spacing-2);
   gap: 0 4px;
   font-family: var(--subtitle-is-4);
-  font-size: var(--font-size-sm);
+  font-size: var(--body-regular-14-size);
   color: var(--text-common);
   appearance: none;
   background: #fff;
@@ -62,23 +65,23 @@
   background-position: right 8px bottom 50%;
   padding-right: var(--spacing-5);
 }
-.button-dropdown:active,
-.button-dropdown:hover {
+.button-dropdown1:active,
+.button-dropdown1:hover {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }
-.button-dropdown:focus {
+.button-dropdown1:focus {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }
-.button-dropdown:checked {
+.button-dropdown1:checked {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }
 .label-filter {
   width: 52px;
   position: relative;
-  font-size: var(--font-size-sm);
+  font-size: var(--body-regular-14-size);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
   color: var(--text-common);
@@ -119,7 +122,7 @@
   align-items: flex-start;
   gap: var(--gap-3xs);
 }
-.search-field {
+.search-field1 {
   border: 1px solid var(--text-menu);
   outline: 0;
   background-color: var(--bg-titlebar);
@@ -131,11 +134,11 @@
   align-items: center;
   padding: var(--padding-3xs) var(--spacing-2);
   font-family: var(--subtitle-is-4);
-  font-size: var(--font-size-sm);
+  font-size: var(--body-regular-14-size);
   color: var(--text-secondary);
   min-width: 275px;
 }
-.search-field:focus {
+.search-field1:focus {
   border: 1px solid var(--color-lavender);
   box-sizing: border-box;
 }
@@ -145,6 +148,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  gap: 57px 16px;
 }
 .last-list-img-icon {
   align-self: stretch;

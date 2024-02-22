@@ -10,7 +10,7 @@
 }
 .label-filter {
   width: 52px;
-  font-size: var(--font-size-sm);
+  font-size: var(--body-regular-14-size);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
   color: var(--text-common);
