@@ -1,4 +1,4 @@
-.button-dropdown4 {
+.button-dropdown {
   height: 40px;
   position: relative;
   border-radius: var(--spacing-05);
@@ -22,16 +22,16 @@
   background-position: right 8px bottom 50%;
   padding-right: var(--spacing-5);
 }
-.button-dropdown4:active,
-.button-dropdown4:hover {
+.button-dropdown:active,
+.button-dropdown:hover {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }
-.button-dropdown4:focus {
+.button-dropdown:focus {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }
-.button-dropdown4:checked {
+.button-dropdown:checked {
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }

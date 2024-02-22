@@ -1,14 +1,14 @@
-.icon-plus1,
-.label-cta1 {
+.icon-plus,
+.label-cta {
   position: relative;
   flex-shrink: 0;
 }
-.icon-plus1 {
+.icon-plus {
   width: 24px;
   height: 24px;
   overflow: hidden;
 }
-.label-cta1 {
+.label-cta {
   width: 69px;
   font-size: var(--font-size-sm);
   line-height: 150%;
@@ -17,7 +17,7 @@
   text-align: center;
   display: inline-block;
 }
-.button-cta1 {
+.button-cta {
   cursor: pointer;
   border: 0;
   padding: var(--spacing-1) var(--spacing-2);
@@ -31,13 +31,13 @@
   box-sizing: border-box;
   gap: 0 4px;
 }
-.button-cta1:hover {
+.button-cta:hover {
   background-color: var(--color-mediumblue-100);
 }
-.button-cta1:disabled {
+.button-cta:disabled {
   background-color: var(--color-grey-light);
 }
-.button-cta1:disabled .label-cta1 {
+.button-cta:disabled .label-cta1 {
   color: var(--text-menu);
 }
 .button-dropdown {
@@ -75,7 +75,7 @@
   border: 1px solid var(--button-background-cta);
   box-sizing: border-box;
 }
-.label-filter1 {
+.label-filter {
   width: 52px;
   position: relative;
   font-size: var(--font-size-sm);
@@ -86,12 +86,12 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.button-filter1,
-.button-filter1:hover {
+.button-filter,
+.button-filter:hover {
   background-color: var(--bg-titlebar);
   box-sizing: border-box;
 }
-.button-filter1 {
+.button-filter {
   cursor: pointer;
   border: 1px solid var(--text-common);
   padding: var(--spacing-1) var(--spacing-2);
@@ -100,20 +100,20 @@
   align-items: center;
   gap: 0 4px;
 }
-.button-filter1:hover {
+.button-filter:hover {
   border: 1px solid var(--button-background-cta);
 }
-.button-filter1:active {
+.button-filter:active {
   filter: drop-shadow(0 0 0 2px #f0f5ff);
 }
-.button-filter1,
-.button-wrapper2,
+.button-filter,
+.button-wrapper,
 .search-field {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-.button-wrapper2 {
+.button-wrapper {
   flex: 1;
   flex-wrap: wrap;
   align-items: flex-start;
