@@ -1,11 +1,11 @@
-.icon-user1 {
+.icon-user {
   width: 24px;
   position: relative;
   height: 24px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.email1 {
+.email {
   position: relative;
   font-size: var(--body-regular-12-size);
   line-height: 150%;
@@ -13,19 +13,19 @@
   color: var(--text-title);
   text-align: left;
 }
-.user-info1 {
+.user-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.button-account1,
-.my-account1 {
+.button-account,
+.my-account {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.button-account1 {
+.button-account {
   cursor: pointer;
   border: 0;
   padding: var(--padding-5xs);
@@ -33,7 +33,7 @@
   justify-content: flex-end;
   gap: 0 8px;
 }
-.my-account1 {
+.my-account {
   position: relative;
   width: 100%;
   justify-content: flex-start;

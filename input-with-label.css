@@ -5,7 +5,7 @@
 .input {
   border: 1px solid var(--text-menu);
   outline: 0;
-  background-color: var(--bg-titlebar);
+  background-color: var(--button-background-default);
   align-self: stretch;
   border-radius: var(--spacing-1);
   box-shadow: var(--shadow-xs);
@@ -17,7 +17,7 @@
   padding: var(--padding-3xs) var(--spacing-2);
   font-family: var(--subtitle-is-4);
   font-size: var(--font-size-sm);
-  color: var(--text-common);
+  color: var(--border-primary);
 }
 .input:disabled {
   background-color: var(--color-grey-light);
@@ -30,7 +30,7 @@
 .input-with-label {
   width: 100%;
   position: relative;
-  background-color: var(--bg-titlebar);
+  background-color: var(--button-background-default);
   height: 70px;
   display: flex;
   flex-direction: column;
@@ -39,6 +39,6 @@
   gap: 6px 0;
   text-align: left;
   font-size: var(--subtitle-is-6-size);
-  color: var(--text-common);
+  color: var(--border-primary);
   font-family: var(--subtitle-is-4);
 }

@@ -1,0 +1,37 @@
+.button-dropdown {
+  height: 40px;
+  position: relative;
+  border-radius: var(--spacing-05);
+  background-color: var(--button-background-default);
+  border: 1px solid var(--border-primary);
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--spacing-1) var(--spacing-5);
+  gap: 0 4px;
+  font-family: var(--subtitle-is-4);
+  font-size: var(--font-size-sm);
+  color: var(--border-primary);
+  appearance: none;
+  background: #fff;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 8px bottom 50%;
+  padding-right: var(--spacing-5);
+}
+.button-dropdown:active,
+.button-dropdown:hover {
+  border: 1px solid var(--button-background-cta);
+  box-sizing: border-box;
+}
+.button-dropdown:focus {
+  border: 1px solid var(--button-background-cta);
+  box-sizing: border-box;
+}
+.button-dropdown:checked {
+  border: 1px solid var(--button-background-cta);
+  box-sizing: border-box;
+}

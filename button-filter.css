@@ -1,41 +1,44 @@
-.icon-sliders1,
-.label-filter1 {
+.icon-sliders,
+.label-filter {
   position: relative;
   flex-shrink: 0;
 }
-.icon-sliders1 {
+.icon-sliders {
   width: 24px;
   height: 24px;
   overflow: hidden;
 }
-.label-filter1 {
+.label-filter {
   width: 52px;
+  font-size: var(--font-size-sm);
   line-height: 150%;
+  font-family: var(--subtitle-is-4);
+  color: var(--border-primary);
+  text-align: center;
   display: inline-block;
 }
-.button-filter1 {
+.button-filter,
+.button-filter:hover {
+  background-color: var(--button-background-default);
+  box-sizing: border-box;
+}
+.button-filter {
+  cursor: pointer;
+  border: 1px solid var(--border-primary);
+  padding: var(--spacing-1) var(--spacing-2);
   position: relative;
   border-radius: var(--spacing-05);
-  background-color: var(--bg-titlebar);
-  border: 1px solid var(--text-common);
-  box-sizing: border-box;
   width: 100%;
   height: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: var(--spacing-1) var(--spacing-2);
   gap: 0 4px;
-  text-align: center;
-  font-size: var(--font-size-sm);
-  color: var(--text-common);
-  font-family: var(--subtitle-is-4);
 }
-.button-filter1:hover {
-  background-color: var(--color-aliceblue);
+.button-filter:hover {
+  border: 1px solid var(--button-background-cta);
 }
-.button-filter1:active {
-  background-color: var(--color-lavender);
-  box-shadow: 0 0 0 2px #f0f5ff;
+.button-filter:active {
+  filter: drop-shadow(0 0 0 2px #f0f5ff);
 }

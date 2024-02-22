@@ -1,16 +1,16 @@
-.label-button {
+.label-button2 {
   position: relative;
   font-size: var(--font-size-sm);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
-  color: var(--text-common);
+  color: var(--border-primary);
   text-align: left;
 }
-.button-basic {
+.button-basic2 {
   cursor: pointer;
-  border: 1px solid var(--text-common);
+  border: 1px solid var(--border-primary);
   padding: var(--spacing-1) var(--spacing-4);
-  background-color: var(--bg-titlebar);
+  background-color: var(--button-background-default);
   position: relative;
   border-radius: var(--spacing-05);
   box-sizing: border-box;
@@ -21,16 +21,16 @@
   align-items: center;
   justify-content: flex-start;
 }
-.button-basic:hover {
+.button-basic2:hover {
   background-color: var(--color-aliceblue);
 }
-.button-basic:active {
+.button-basic2:active {
   background-color: var(--color-lavender);
   box-shadow: 0 0 0 2px #f0f5ff;
 }
-.button-basic:disabled {
+.button-basic2:disabled {
   background-color: var(--color-grey-light);
 }
-.button-basic:disabled .label-button {
+.button-basic2:disabled .label-button2 {
   color: var(--text-menu);
 }

@@ -6,7 +6,7 @@
 .input,
 .label {
   font-family: var(--subtitle-is-4);
-  color: var(--text-common);
+  color: var(--border-primary);
 }
 .label {
   position: relative;
@@ -17,7 +17,7 @@
 .input {
   border: 1px solid var(--text-menu);
   outline: 0;
-  background-color: var(--bg-titlebar);
+  background-color: var(--button-background-default);
   align-self: stretch;
   border-radius: var(--spacing-1);
   box-shadow: var(--shadow-xs);
@@ -39,7 +39,7 @@
 }
 .input-with-label {
   width: 320px;
-  background-color: var(--bg-titlebar);
+  background-color: var(--button-background-default);
   height: 70px;
   display: flex;
   flex-direction: column;
@@ -52,14 +52,14 @@
   font-size: var(--font-size-sm);
   line-height: 150%;
   font-family: var(--subtitle-is-4);
-  color: var(--text-common);
+  color: var(--border-primary);
   text-align: left;
 }
 .button-basic {
   cursor: pointer;
-  border: 1px solid var(--text-common);
+  border: 1px solid var(--border-primary);
   padding: var(--spacing-1) var(--spacing-4);
-  background-color: var(--bg-titlebar);
+  background-color: var(--button-background-default);
   border-radius: var(--spacing-05);
   box-sizing: border-box;
   height: 40px;
@@ -78,6 +78,7 @@
 .button-basic:disabled {
   background-color: var(--color-grey-light);
 }
+.button-basic1:disabled .label-button,
 .button-basic:disabled .label-button {
   color: var(--text-menu);
 }
@@ -94,7 +95,7 @@
   align-items: flex-start;
   gap: 14px 0;
 }
-.button-basic,
+.button-basic1,
 .card-body,
 .card-myinfo {
   display: flex;
@@ -107,18 +108,28 @@
   padding: var(--spacing-2) 0;
   gap: 16px 0;
 }
-.button-basic {
+.button-basic1 {
   cursor: pointer;
-  border: 1px solid var(--text-common);
+  border: 1px solid var(--border-primary);
   padding: var(--spacing-1) var(--spacing-4);
-  background-color: var(--bg-titlebar);
+  background-color: var(--button-background-default);
   border-radius: var(--spacing-05);
   box-sizing: border-box;
   height: 40px;
   flex-direction: row;
   align-items: center;
 }
-.button-wrapper,
+.button-basic1:hover {
+  background-color: var(--color-aliceblue);
+}
+.button-basic1:active {
+  background-color: var(--color-lavender);
+  box-shadow: 0 0 0 2px #f0f5ff;
+}
+.button-basic1:disabled {
+  background-color: var(--color-grey-light);
+}
+.button-wrapper1,
 .contents-myinfo {
   display: flex;
   flex-direction: column;
@@ -129,7 +140,7 @@
 .contents-myinfo {
   width: 100%;
   position: relative;
-  background-color: var(--bg-titlebar);
+  background-color: var(--button-background-default);
   justify-content: center;
   padding: var(--spacing-lg);
   box-sizing: border-box;
